@@ -1,0 +1,8 @@
+.searchPanel {
+	width: 95%;
+	padding: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0.25rem;
+	background-color: coral;
+}

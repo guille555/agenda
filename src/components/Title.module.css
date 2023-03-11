@@ -1,0 +1,19 @@
+.titleH1,
+.titleH2 {
+  font-family: var(--textFamily);
+}
+
+.titleH1 {
+  color: var(--textColorAlternative);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  font-size: 2rem;
+}
+
+.titleH2 {
+  color: var(--textColor);
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+}

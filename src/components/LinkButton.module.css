@@ -1,0 +1,16 @@
+.linkButton {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--textColor);
+  background-color: #2222D6;
+  padding: 1rem;
+  margin-top: 0.50rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+}
+
+.linkButton:hover {
+  background-color: #2A2AFF;
+}

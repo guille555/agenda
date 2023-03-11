@@ -1,0 +1,39 @@
+.userPanelContainer {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.userMenuList {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+  display: none;
+  position: absolute;
+}
+
+.userMenuItem {
+  background-color: #2222D6;
+  padding: 1rem;
+  margin-left: -1rem;
+  border-radius: 0.25rem;
+}
+
+.userMenuItem:hover {
+  background-color: #2A2AFF;
+}
+
+.userLink {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--textColor);
+}
+
+.userPanel:hover > .userMenuList {
+  display: block;
+}

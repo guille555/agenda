@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: darkblue;
+  color: var(--textColor);
+  width: 100%;
+}
+
+.footerSocialColumn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footerIconContainer {
+  width: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.footerIconContainer > a > img {
+  max-width: 100%;
+  filter: invert(100%);
+}

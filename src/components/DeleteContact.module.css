@@ -1,0 +1,44 @@
+.eraseContainer {
+  width: 95%;
+  background-color: darkblue;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.text {
+  color: var(--textColor);
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.successMessage,
+.errorMessage {
+  margin: 0;
+  padding: 1rem;
+  width: 95%;
+  border-radius: 0.25rem;
+}
+
+.successMessage {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+.errorMessage {
+  background-color: #D97B7B;
+  color: darkred;
+}

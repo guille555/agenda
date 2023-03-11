@@ -1,0 +1,9 @@
+.userPhotoContainer {
+  width: 3rem;
+  margin-right: 2rem;
+}
+
+.userPhoto {
+  max-width: 100%;
+  border-radius: 50%;
+}

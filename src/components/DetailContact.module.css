@@ -1,0 +1,8 @@
+.detailContainer {
+	background-color: darkblue;
+	padding: 1rem;
+	border-radius: 0.25rem;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
